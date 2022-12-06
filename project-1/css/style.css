@@ -1,0 +1,110 @@
+body{
+    color: rgb(92, 10, 10);
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;  
+}
+
+/* this is left portion  */
+.left{
+display:inline-block;
+position: relative;
+top: -50px;
+left:-60px;
+}
+
+
+/* this is mid portion  */
+.mid{
+display: inline-block;
+width: 45%;
+position: relative;
+left: 20px;
+top: -180px;
+}
+
+
+/* this is right portion  */
+.right{
+position: relative;
+top: -190px;
+left: 310px;
+display: inline-block;
+}
+
+
+
+
+/* navigatio sysytem  */
+.nav
+{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+text-decoration: none;
+font-size: 18px;
+cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+.nav li a{
+    font-family: 'Crimson Text', serif;
+    color: rgb(12, 1, 1,0.1);
+    padding: 10px 50px;
+
+}
+
+.nav li:hover{
+    text-decoration: underline;
+    color: rgb(182, 106, 83);
+}
+
+img{
+    width: 220px;
+    filter: invert(100%);
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.btn{
+font-family: 'Crimson Text', serif;
+margin: 5px 20px;
+padding: 2px 15px;
+border-radius: 5px;
+background-color: rgb(151, 196, 211);
+cursor: pointer;
+font-weight: bold;
+}
+.right{
+    position: relative;
+    left: 500px;
+}
+
+ .btn:hover
+{
+    color: rgb(8, 1, 1);
+    background-color: rgb(177, 140, 140);
+}
+
+h3{
+display: inline-block;
+position: relative;
+font-style: italic;
+top: -155px;
+color: rgb(0, 0, 0);
+}
+
+p
+{
+    display: inline;
+    font-style: italic;
+}
+.pera
+{
+    border: 2px solid rgb(111, 151, 161);
+    width: 500px;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
